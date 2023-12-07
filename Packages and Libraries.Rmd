@@ -1,0 +1,23 @@
+---
+title: "Packages Required"
+output: pdf_document
+date: "2022-11-23"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Packages Required
+
+```{r}
+library(tidyverse) # To structure, manipulate and visualize data.
+library(car) # To test, transform and visualize data.
+library(MASS) # To do data transformation.
+library(boot) # To do cross validation.
+library(class) # To do classification (KNN).
+library(ggplot2) # To do data visualization.
+library(KODAMA) # To do unsupervised features prediction.
+```
+
+We might need to add/remove some more as needed; 
